@@ -1,0 +1,60 @@
+
+body{ background-color: rgb(255, 239, 239);
+
+}
+
+h1{font-size: 40px;
+    color: yellowgreen
+}
+
+h2 {
+    font-size: 30px;
+    color: rgb(36, 36, 228);
+  }
+  
+  .p1 {
+    color: #28e778;
+    font-size: 20px;
+    }
+  .p2 {
+    color: #b84807a6;
+    font-size: 20px;
+
+  }
+  .p3 {
+    color: #f50b69;
+    font-size: 20px;
+
+  }
+  .p4 {
+    color: #637418;
+    font-size: 20px;
+
+  }
+  .p5 {
+    color: #d27034;
+    font-size: 20px;
+
+  }
+  
+  
+  .triangle{
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+  }
+  .diamond{
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+  } 
+  .square{
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+  }
+  .circle{
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+  }

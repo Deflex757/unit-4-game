@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crystal Game</title>
+
+</head>
+
+<body>
+    <div class="CC">
+        <h1>CrystalsCollector!</h1>
+    </div>
+    <br>
+
+    <div class="first">
+        <p class="p1">
+            You will be given a random number at the start of the game.
+        </p>
+        <br>
+        <p class="p2">
+            There are four crystals below. By clicking on a shape you will add a specific amount of points to your total score.
+        </p>
+        <br>
+
+        <p class="p3">
+            You win the game by matching your total score to random number, you lose the game if your total score goes above the random
+            number.
+        </p>
+        <br>
+
+        <p class="p4">
+            The value of each crystal is hidden from you until you click on it.
+        </p>
+        <p class="p5">
+            <br> Each time when the game starts, the game will change the values of each crystal.
+        </p>
+    </div>
+    <br>
+
+
+    <div class="answer">
+        <p id="answer"></p>
+    </div>
+    <div class="WL">
+        <h2>Target Number</h2>
+        <br>
+        <span id=finalTotal></span>
+        <h2>Wins</h2>
+        <span id="winTimes"></span>
+        <br>
+        <h2>Losses</h2>
+        <span id="loseTimes"></span>
+    </div>
+    <br>
+
+    <div class="pictures">
+        <img src="assets/images/triangle.jpg" class="triangle" id="one" alt="tri">
+        <img src="assets/images/diamond.jpg" class="diamond" id="two" alt="diamond">
+        <img src="assets/images/square.jpg" class="square" id="three" alt="sq">
+        <img src="assets/images/circle.jpg" class="circle" id="four" alt="cir">
+
+    </div>
+    
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"> </script>
+</body>
+
+</html>
